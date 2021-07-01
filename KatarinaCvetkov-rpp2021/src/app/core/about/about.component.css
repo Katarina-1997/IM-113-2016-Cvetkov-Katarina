@@ -1,0 +1,52 @@
+main {
+    height: 99.7vh;
+    background: linear-gradient(
+        #008080,
+        #00b3b3,
+        #00b3b3,
+        #006666
+    );
+    cursor: default;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 25px;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.about {
+    text-align: left;
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+    margin-right: 40px;
+}
+
+p {
+    font-size: 22px;
+}
+
+i {
+    font-weight: bold;
+    color: rgb(2, 2, 2);
+}
+
+.mat-icon {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+    margin-right: 50px;
+}
+
+li {
+    font-size: 21px;
+}
+
+ol {
+    margin-left: 55px;
+}
+

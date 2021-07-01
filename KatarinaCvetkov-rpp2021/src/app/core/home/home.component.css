@@ -1,0 +1,40 @@
+body {
+    cursor: default;
+}
+
+main {
+    height: 99.7vh;
+    background: linear-gradient(
+        #008080,
+        #00b3b3,
+        #00b3b3,
+        #006666
+    );
+    cursor: default;
+    overflow: hidden;
+}
+
+.mat-icon {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+    margin-right: 50px;
+}
+
+.header {
+    padding: 230px;
+}
+
+.header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.align {
+    margin-top: 15px;
+    margin-left: 25px;
+}
+i {
+    font-size: 18px;
+}

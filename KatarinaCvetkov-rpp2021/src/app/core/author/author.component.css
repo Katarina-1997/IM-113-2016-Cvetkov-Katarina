@@ -1,0 +1,35 @@
+body {
+    cursor: default;
+}
+
+main {
+    height: 99.7vh;
+    background: linear-gradient(
+        #008080,
+        #00b3b3,
+        #00b3b3,
+        #006666
+    );
+    cursor: default;
+    overflow: hidden;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    cursor: default;
+    height: 100vh;
+    margin-left: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}

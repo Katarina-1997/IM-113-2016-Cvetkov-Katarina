@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-basis: column;
+}
+
+.sidenav {
+    background: linear-gradient(
+        #008080,
+        #00b3b3,
+        #00b3b3,
+        #006666
+    ); /* Boja side-navigacije */
+    color: #000000;
+}
+
+mat-expansion-panel,
+mat-panel-title,
+mat-panel-description {
+    background:  #b3e0ff 85%; /* Boja accordian-a */
+    color: #000000;
+}
+
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.example-button-row {
+    display: flex;
+    align-items: left;
+}
+
+.mat-button {
+    text-align: left;
+    display: block;
+}
+
